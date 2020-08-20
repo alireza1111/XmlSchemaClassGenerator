@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xscgen-proj", "xscgen-proj\xscgen-proj.csproj", "{2F20FF02-12AB-448B-BC78-DD76DD4C9E66}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSCH2Cs", "JsonSCH2Cs\JsonSCH2Cs.csproj", "{73551364-4164-4320-A332-CF7A36E327AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetRdf", "NetRdf\NetRdf.csproj", "{E2A27F37-ABF3-4976-82AB-AA2648A41EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,14 @@ Global
 		{2F20FF02-12AB-448B-BC78-DD76DD4C9E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F20FF02-12AB-448B-BC78-DD76DD4C9E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F20FF02-12AB-448B-BC78-DD76DD4C9E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73551364-4164-4320-A332-CF7A36E327AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73551364-4164-4320-A332-CF7A36E327AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73551364-4164-4320-A332-CF7A36E327AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73551364-4164-4320-A332-CF7A36E327AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A27F37-ABF3-4976-82AB-AA2648A41EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A27F37-ABF3-4976-82AB-AA2648A41EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A27F37-ABF3-4976-82AB-AA2648A41EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A27F37-ABF3-4976-82AB-AA2648A41EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

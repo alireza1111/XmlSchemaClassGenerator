@@ -1,0 +1,2781 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "cc": "http://creativecommons.org/ns#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "lcon": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "sioc": "http://rdfs.org/sioc/ns#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "voaf": "http://purl.org/vocommons/voaf#",
+    "wdsr": "http://www.w3.org/2007/05/powder-s#",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:N5b23c30c0fbc4bb693fa9e2d0eff5183",
+      "foaf:homepage": {
+        "@id": "https://www.ails.ece.ntua.gr/people/natasa"
+      },
+      "foaf:name": "Natasa Sofou",
+      "rdfs:seeAlso": {
+        "@id": "https://www.ails.ece.ntua.gr/people/natasa"
+      },
+      "schema:affiliation": {
+        "@id": "_:N9a49f12bb10443ac9bc9c36fd5b018de"
+      }
+    },
+    {
+      "@id": "spdx:checksumValue",
+      "dcterms:identifier": "spdx:checksumValue",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property provides a lower case hexadecimal encoded digest value produced using a specific algorithm."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://spdx.org/rdf/terms/#checksumValue"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Checksum - checksum value"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property. This property provides a lower case hexadecimal encoded digest value produced using a specific algorithm."
+      }
+    },
+    {
+      "@id": "foaf:page",
+      "dcterms:identifier": "foaf:page",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to a page or document about this Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a page or document about this Dataset."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_page"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Distribution - documentation"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - documentation"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property.This property refers to a page or document about this Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a page or document about this Dataset."
+        }
+      ]
+    },
+    {
+      "@id": "dcterms:description",
+      "dcterms:identifier": "dct:description",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."
+        },
+        {
+          "@language": "en",
+          "@value": "This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a free-text account of the Dataset. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a free-text account of the record. This property can be repeated for parallel language versions of the description."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-description"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Service - description"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - description"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - description"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - description"
+        },
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - description"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property contains a free-text account of the Catalogue. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains a free-text account of the Catalogue. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains a free-text account of the record. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property contains a free-text account of the Dataset. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property contains a free-text account of the Distribution. This property can be repeated for parallel language versions of the description."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#temporalResolution",
+      "dcterms:identifier": [
+        "dcat:temporalResolution ",
+        "dcat:temporalResolution"
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the minimum time period resolvable in the dataset distribution ."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to the minimum time period resolvable in the dataset. ."
+        }
+      ],
+      "rdfs:isDefinedBy": [
+        {
+          "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:distribution_temporal_resolution"
+        },
+        {
+          "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:dataset_temporal_resolution"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Dataset - "
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - temporal resolution"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the minimum time period resolvable in the dataset distribution . "
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the minimum time period resolvable in the dataset. "
+        }
+      ]
+    },
+    {
+      "@id": "skos:prefLabel",
+      "dcterms:identifier": "skos:prefLabel",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property can be repeated for parallel language versions of the label."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/2009/08/skos-reference/skos.html#prefLabel"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Category - preferred label"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property.  This property contains a preferred label of the category. This property can be repeated for parallel language versions of the label."
+      }
+    },
+    {
+      "@id": "_:Nb2c4c3ebf2b042c09c964d19b3fa56b1",
+      "foaf:homepage": {
+        "@id": "https://www.linkedin.com/in/bert-van-nuffelen-a349634/"
+      },
+      "foaf:name": "Bert Van Nuffelen",
+      "schema:affiliation": {
+        "@id": "_:N71caaf3f967c473c94825d92e2761f95"
+      }
+    },
+    {
+      "@id": "dcatap:available",
+      "@type": "skos:Concept",
+      "dcterms:identifier": "available",
+      "skos:definition": {
+        "@language": "en",
+        "@value": "Data is available for a few years, medium term planning."
+      },
+      "skos:inScheme": {
+        "@id": "http://data.europa.eu/r5r/availability/1.0"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "available"
+      }
+    },
+    {
+      "@id": "dcat:downloadURL",
+      "dcterms:identifier": "dcat:downloadURL",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a URL that is direct link to a downloadable file in a given format."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - download URL"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains a URL that is direct link to a downloadable file in a given format."
+      }
+    },
+    {
+      "@id": "dcterms:acrualPeriodicity",
+      "dcterms:identifier": "dct:accrualPeriodicity",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the frequency at which Dataset is updated."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-acrualPeriodicity"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - frequency"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the frequency at which Dataset is updated."
+      }
+    },
+    {
+      "@id": "skos:ConceptScheme",
+      "dcterms:identifier": "skos:ConceptScheme",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "An abstract idea or notion; a unit of thought."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-category-and-category-scheme"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Category scheme"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended class. A concept collection (e.g. controlled vocabulary) in which the Category is defined."
+      }
+    },
+    {
+      "@id": "dcterms:isReferencedBy",
+      "dcterms:identifier": "dct:isReferencedBy",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a related resource, such as a publication, that references, cites, or otherwise points to the dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:resource_is_referenced_by"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - is referenced By "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a related resource, such as a publication, that references, cites, or otherwise points to the dataset. "
+      }
+    },
+    {
+      "@id": "dcat:theme",
+      "dcterms:identifier": "dcat:theme",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a category of the Dataset. A Dataset may be associated with multiple themes. Subproperty of dct:subject"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat/#Property:dataset_theme"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - theme/category"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to a category of the Dataset. A Dataset may be associated with multiple themes. Subproperty of dct:subject."
+      }
+    },
+    {
+      "@id": "dcterms:hasPart",
+      "dcterms:identifier": "dct:hasPart",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a related Catalogue that is part of the described Catalogue"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-hasPart"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - has part"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a related Catalogue that is part of the described Catalogue."
+      }
+    },
+    {
+      "@id": "dcterms:source",
+      "dcterms:identifier": "dct:source",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the original metadata that was used in creating metadata for the Dataset."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a related Dataset from which the described Dataset is derived."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-source"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - source metadata"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - source "
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the original metadata that was used in creating metadata for the Dataset."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a related Dataset from which the described Dataset is derived."
+        }
+      ]
+    },
+    {
+      "@id": "_:N3058bde7835342f8b4159595b6a34f8a",
+      "foaf:name": "DCAT-AP Working Group",
+      "foaf:page": [
+        {
+          "@id": "https://joinup.ec.europa.eu/node/64331"
+        },
+        {
+          "@id": "https://github.com/SEMICeu/DCAT-AP"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ndbe4770780164333b5a95bb248d45912",
+      "foaf:homepage": {
+        "@id": "http://makxdekkers.com/"
+      },
+      "foaf:name": "Makx Dekkers",
+      "rdfs:seeAlso": {
+        "@id": "http://makxdekkers.com/"
+      },
+      "schema:affiliation": {
+        "@id": "_:N2a74cf21a8bc4bdbac1bff336640a114"
+      }
+    },
+    {
+      "@id": "dcterms:isPartOf",
+      "dcterms:identifier": "dct:isPartOf",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a related Catalogue in which the described Catalogue is physically or logically included."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-isPartOf"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - is part of"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a related Catalogue in which the described Catalogue is physically or logically included."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#centroid",
+      "dcterms:identifier": "dcat:centroid",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the geographic center (centroid) of a resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:location_centroid"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Location - centroid"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to the geographic center (centroid) of a resource."
+      }
+    },
+    {
+      "@id": "foaf:name",
+      "dcterms:identifier": "foaf:name",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property can be repeated for different versions of the name (e.g. the name in different languages)"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_name"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Agent - name"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property.  This property contains a name of the agent. This property can be repeated for different versions of the name (e.g. the name in different languages)"
+      }
+    },
+    {
+      "@id": "dcterms:identifier",
+      "dcterms:acrualPeriodicity": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-identifier"
+      },
+      "dcterms:identifier": "dct:identifier",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains the main identifier for the Dataset, e.g. the URI or other unique identifier in the context of the Catalogue."
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - identifier"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains the main identifier for the Dataset, e.g. the URI or other unique identifier in the context of the Catalogue."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#endpointDescription",
+      "dcterms:identifier": "dcat:endpointDescription",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A description of the services available via the end-points, including their operations, parameters etc."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:data_service_endpoint_description "
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Service - endpoint description"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recomended property. A description of the services available via the end-points, including their operations, parameters etc ."
+      }
+    },
+    {
+      "@id": "dcterms:issued",
+      "dcterms:identifier": "dct:issued",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property contains the date on which the description of the Dataset was included in the Catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the date of formal issuance (e.g., publication) of the Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the date of formal issuance (e.g., publication) of the Catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the date of formal issuance (e.g., publication) of the Dataset."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-issued"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - release date"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - release date"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - release date"
+        },
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - listing date"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains the date of formal issuance (e.g., publication) of the Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property contains the date on which the description of the Dataset was included in the Catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains the date of formal issuance (e.g., publication) of the Dataset."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property contains the date of formal issuance (e.g., publication) of the Catalogue."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#compressFormat",
+      "dcterms:identifier": "dcat:compressFormat",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file ."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:distribution_compression_format"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - compression format"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file. It SHOULD be expressed using a media type as defined in the official register of media types managed by IANA."
+      }
+    },
+    {
+      "@id": "dcterms:conformsTo",
+      "dcterms:identifier": "dct:conformsTo",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to an implementing rule or other specification."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to an established schema to which the described Distribution conforms."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to an Application Profile that the Dataset’s metadata conforms to."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-conformsTo"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Distribution - linked schemas"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - conforms to"
+        },
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - conforms to"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to an Application Profile that the Dataset’s metadata conforms to."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to an implementing rule or other specification."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to an established schema to which the described Distribution conforms."
+        }
+      ]
+    },
+    {
+      "@id": "dcterms:type",
+      "dcterms:identifier": "dct:type",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to a type of the agent that makes the Catalogue or Dataset availabl"
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a type of licence, e.g. indicating ‘public domain’ or ‘royalties required’."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to the type of the Dataset. A controlled vocabulary for the values has not been established."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-type"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Agent - type"
+        },
+        {
+          "@language": "en",
+          "@value": "Licence Document - licence type"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - type "
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to a type of licence, e.g. indicating ‘public domain’ or ‘royalties required’."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to a type of the agent that makes the Catalogue or Dataset available"
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the type of the Dataset. A controlled vocabulary for the values has not been established."
+        }
+      ]
+    },
+    {
+      "@id": "dcat:keyword",
+      "dcterms:identifier": "dcat:keyword",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a keyword or tag describing the Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - keyword/ tag"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property contains a keyword or tag describing the Dataset."
+      }
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by/4.0/",
+      "cc:attributionName": "European Commission",
+      "cc:attributionURL": {
+        "@id": "http://ec.europa.eu/"
+      },
+      "dcterms:title": "Attribution 4.0 International (CC BY 4.0)"
+    },
+    {
+      "@id": "dcat:accessURL",
+      "dcterms:identifier": "dcat:accessURL",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a URL that gives access to a Distribution of the Dataset. The resource at the access URL may contain information about how to get the Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - access URL"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property.  This property contains a URL that gives access to a Distribution of the Dataset. The resource at the access URL may contain information about how to get the Dataset. "
+      }
+    },
+    {
+      "@id": "dcterms:MediaType",
+      "dcterms:identifier": "dct:MediaType",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A media type or extent, e.g. the format of a computer file."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-MediaType"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Media type "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A media type or extent, e.g. the format of a computer file. "
+      }
+    },
+    {
+      "@id": "foaf:Document",
+      "dcterms:identifier": "foaf:Document",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A document."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_Document"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Document"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset."
+      }
+    },
+    {
+      "@id": "_:N7c3200daacdd43f58f63f9b083d93acc",
+      "foaf:homepage": {
+        "@id": "http://www.deri.ie/users/vassilios-peristeras/"
+      },
+      "foaf:name": "Vassilios Peristeras",
+      "rdfs:seeAlso": {
+        "@id": "http://www.deri.ie/users/vassilios-peristeras/"
+      },
+      "schema:affiliation": {
+        "@id": "_:Ne0166fa022884719b04c373d5d445f31"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/r5r/availability/1.0",
+      "@type": "skos:ConceptScheme",
+      "dcterms:identifier": "http://data.europa.eu/r5r/availability/1.0",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "List of availability levels"
+      },
+      "skos:hasTopConcept": [
+        {
+          "@id": "http://data.europa.eu/r5r/availability/temporary"
+        },
+        {
+          "@id": "http://data.europa.eu/r5r/availability/available"
+        },
+        {
+          "@id": "http://data.europa.eu/r5r/availability/experimental"
+        },
+        {
+          "@id": "http://data.europa.eu/r5r/availability/stable"
+        }
+      ],
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "List of availability levels"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "The list of terms for the avalability levels of a dataset distribution  in the DCAT-AP  specification."
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/r5r/availability/temporary",
+      "@type": "skos:Concept",
+      "dcterms:identifier": "temporary",
+      "skos:definition": {
+        "@language": "en",
+        "@value": "Data can disappear at any time, no planning."
+      },
+      "skos:inScheme": {
+        "@id": "http://data.europa.eu/r5r/availability/1.0"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "temporary"
+      }
+    },
+    {
+      "@id": "_:Ne0166fa022884719b04c373d5d445f31",
+      "foaf:homepage": {
+        "@id": "http://ec.europa.eu/"
+      },
+      "foaf:name": "European Commission"
+    },
+    {
+      "@id": "dcat:Distribution",
+      "dcterms:identifier": "dcat:Distribution",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Represents a specific available form of a dataset. Each dataset might be available in different forms, these forms might represent different formats of the dataset, different endpoints,... Examples of Distribution include a downloadable CSV file, an XLS file representing the dataset, an RSS feed…"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-distribution"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended class. A physical embodiment of the Dataset in a particular format."
+      }
+    },
+    {
+      "@id": "dcatap:availability",
+      "@type": [
+        "rdf:Property",
+        "owl:Ontology",
+        "owl:ObjectProperty"
+      ],
+      "dcterms:identifier": "dcatap:availability",
+      "owl:versionIRI": {
+        "@id": "http://data.europa.eu/r5r/availability/1.0/"
+      },
+      "owl:versionInfo": "1.0",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "The knowledge organization system (KOS) used to classify Datase Distribution availability levels."
+        },
+        {
+          "@language": "en",
+          "@value": "This property indicates how long it is planned to keep the Distribution of the Dataset available."
+        },
+        {
+          "@type": "rdfs:Literal",
+          "@value": "List of availability levels."
+        }
+      ],
+      "rdfs:domain": {
+        "@id": "dcat:Distribution"
+      },
+      "rdfs:isDefinedBy": [
+        {
+          "@id": "data.europa.eu/r5r/"
+        },
+        {
+          "@id": "dcatap:availability"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Distribution - availability"
+        },
+        {
+          "@language": "en",
+          "@value": "availability"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property indicates how long it is planned to keep the Distribution of the Dataset available . "
+      }
+    },
+    {
+      "@id": "dcterms:accessRights",
+      "dcterms:identifier": "dct:accessRights",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to information that indicates whether the Dataset is open data, has access restrictions or is not public. A controlled vocabulary with three members (:public, :restricted, :non-public) will be created and maintained by the Publications Office of the EU."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-accessRights"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Dataset - access Rights"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Service - access rights"
+        }
+      ],
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to information that indicates whether the Dataset is open data, has access restrictions or is not public. A controlled vocabulary with three members (:public, :restricted, :non-public) will be created and maintained by the Publications Office of the EU."
+      }
+    },
+    {
+      "@id": "dcat:record",
+      "dcterms:identifier": "dcat:record",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a Catalogue Record that is part of the Catalogue"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat/#Property:catalog_catalog_record"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - record"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a Catalogue Record that is part of the Catalogue"
+      }
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/document/process-and-methodology-developing-core-vocabularies",
+      "dcterms:title": "Process and Methodology for Developing Core Vocabularies"
+    },
+    {
+      "@id": "dcterms:hasVersion",
+      "dcterms:identifier": "dct:hasVersion",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a related Dataset that is a version, edition, or adaptation of the described Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-hasVersion"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - has Version"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property.This property refers to a related Dataset that is a version, edition, or adaptation of the described Dataset."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#packageFormat",
+      "dcterms:identifier": "dcat:packageFormat",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:distribution_packaging_format"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - packaging format"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together. It SHOULD be expressed using a media type as defined in the official register of media types managed by IANA. "
+      }
+    },
+    {
+      "@id": "dcterms:creator",
+      "dcterms:identifier": "dct:creator",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to an entity primarily responsible for making the catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to an entity primarily responsible for making the dataset."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#terms-creator"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Catalogue- creator"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - creator"
+        }
+      ],
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to an entity primarily responsible for making the resource."
+      }
+    },
+    {
+      "@id": "dcterms:isVersionOf",
+      "dcterms:identifier": "dct:isVersionOf",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a related Dataset of which the described Dataset is a version, edition, or adaptation."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-isVersionOf"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - is Version Of"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a related Dataset of which the described Dataset is a version, edition, or adaptation."
+      }
+    },
+    {
+      "@id": "skos:Concept",
+      "dcterms:identifier": "skos:Concept",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "An abstract idea or notion; a unit of thought."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-category-and-category-scheme"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Category, Publisher type, Status "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended class - Category: a subject of a Dataset. Optional Class - Publisher type: A type of organisation that acts as a publisher. Optional Class - Status: an indication of the maturity of a Distribution."
+      }
+    },
+    {
+      "@id": "foaf:Agent",
+      "dcterms:identifier": "foaf:Agent",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "An agent (eg. person, group, software or physical artifact)."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_Agent"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Agent"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory class. An entity that is associated with Catalogues and/or Datasets. If the Agent is an organisation, the use of the Organization Ontology  is recommended."
+      }
+    },
+    {
+      "@id": "dcterms:Standard",
+      "dcterms:identifier": "dct:Standard",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A basis for comparison; a reference point against which other things can be evaluated."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-Standard"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Standard"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A standard or other specification to which a Dataset conforms. "
+      }
+    },
+    {
+      "@id": "dcterms:Frequency",
+      "dcterms:identifier": "dct:Frequency",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A rate at which something recurs."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-Frequency"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Frequency"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A rate at which something recurs, e.g. the publication of a Dataset."
+      }
+    },
+    {
+      "@id": "dcat:CatalogRecord",
+      "dcterms:identifier": "dcat:CatalogRecord",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A record in a data catalog, describing a single dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-catalog-record"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Catalogue Record"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional  class. A description of a Dataset’s entry in the Catalogue."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#servesdataset",
+      "dcterms:identifier": "dcat:servesDataset",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A collection of data that this data service can distribute."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:data_service_serves_dataset "
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Service - serves dataset"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. A collection of data that this data service can distribute."
+      }
+    },
+    {
+      "@id": "dcterms:relation",
+      "dcterms:identifier": "dct:relation",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the resource related to the source resource."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a related resource."
+        }
+      ],
+      "rdfs:isDefinedBy": [
+        {
+          "@id": "http://dublincore.org/documents/dcmi-terms/#terms-relation"
+        },
+        {
+          "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:relationship_relation"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Dataset - related resource"
+        },
+        {
+          "@language": "en",
+          "@value": "Relationship - relation "
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Mandatory property.This property refers to the resource related to the source resource. ."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a related resource."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#service",
+      "dcterms:identifier": " dcat:service",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a site or end-point that is listed in the catalog. ."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:catalog_service"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - service"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a site or end-point that is listed in the catalog."
+      }
+    },
+    {
+      "@id": "skos:notation",
+      "dcterms:identifier": "skos:notation",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a string that is an identifier in the context of the identifier scheme referenced by its datatype."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/2009/08/skos-reference/skos.html#notation"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Identifier - notation"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property.  This property contains a string that is an identifier in the context of the identifier scheme referenced by its datatype."
+      }
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/sites/default/files/imagecache/community_logo/DCAT_application_profile_for_European_data_portals_logo_0.png",
+      "rdfs:label": "DCAT-AP logo"
+    },
+    {
+      "@id": "dcterms:RightsStatement",
+      "dcterms:identifier": "dct:RightsStatement",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-RightsStatement"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Rights statement"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights. "
+      }
+    },
+    {
+      "@id": "dcat:themeTaxonomy",
+      "dcterms:identifier": "dcat:themeTaxonomy",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "The knowledge organization system (KOS) used to classify catalog's datasets"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/vocab-dcat/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - themes"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to a knowledge organization system (KOS) used to classify the Catalogue's Datasets."
+      }
+    },
+    {
+      "@id": "dcterms:temporal",
+      "dcterms:identifier": "dct:temporal",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a temporal period that the Dataset covers."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-temporal"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - temporal coverage"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to a temporal period that the Dataset covers."
+      }
+    },
+    {
+      "@id": "dcterms:title",
+      "dcterms:identifier": "dct:title",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property contains a name given to the Catalogue. This property can be repeated for parallel language versions of the name."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a name given to the Distribution. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a name of the category scheme. May be repeated for different versions of the name"
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a name given to the Dataset. This property can be repeated for parallel language versions of the name."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains a name given to the Data Service. This property can be repeated for parallel language versions of the name."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-title"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - title"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - title"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Service - title"
+        },
+        {
+          "@language": "en",
+          "@value": "Category Scheme - title"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - title"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - title"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains a name given to the Catalogue. This property can be repeated for parallel language versions of the name."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property.  This property contains a name of the category scheme. May be repeated for different versions of the name"
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property contains a name given to the Dataset. This property can be repeated for parallel language versions of the name."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property contains a name given to the Catalogue. This property can be repeated for parallel language versions of the name."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains a name given to the Distribution. This property can be repeated for parallel language versions of the description."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property contains a name given to the Data Service. This property can be repeated for parallel language versions of the name."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.w3.org/ns/adms#Identifier",
+      "dcterms:identifier": "adms:Identifier",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This class is based on the UN/CEFACT Identifier complex type defined in See Section 5.8 of Core Components Data Type Catalogue Version 3.1 (http://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS/CCTS-DTCatalogueVersion3p1.pdf) In RDF this is expressed using the following properties: - the content string should be provided using skos:notation, datatyped with the identifier scheme (inclduing the version number if appropriate); - use dcterms:creator to link to a class describing the agency that manages the identifier scheme or adms:schemaAgency to provide the name as a literal. Although not part of the ADMS conceptual model, it may be useful to provide further properties to the Identifier class such as dcterms:created to provide the date on which the identifier was issued."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-adms/#identifier"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Identifier"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. An identifier in a particular context, consisting of the string that is the identifier; an optional identifier for the identifier scheme; an optional identifier for the version of the identifier scheme; an optional identifier for the agency that manages the identifier scheme"
+      }
+    },
+    {
+      "@id": "dcterms:rights",
+      "dcterms:identifier": "dct:rights",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to a statement that specifies rights associated with the Catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a statement that specifies rights associated with the Distribution."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-rights"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Distribution - rights"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - rights"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a statement that specifies rights associated with the Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a statement that specifies rights associated with the Catalogue."
+        }
+      ]
+    },
+    {
+      "@id": "rdfs:Literal",
+      "dcterms:identifier": "rdfs:Literal",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "The class rdfs:Literal is the class of literal values such as strings and integers. Property values such as textual strings are examples of RDF literals."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/rdf-concepts/#section-Literals"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Literal"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory class. A literal value such as a string or integer; Literals may be typed, e.g. as a date according to xsd:date. Literals that contain human-readable text have an optional language tag as defined by BCP 47."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#DataService",
+      "dcterms:identifier": "dcat:DataService",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A collection of operations that provides access to one or more datasets or data processing functions."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Class:Data_Service"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Service"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A collection of operations that provides access to one or more datasets or data processing functions."
+      }
+    },
+    {
+      "@id": "dcat:byteSize",
+      "dcterms:identifier": "dcat:byteSize",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains the size of a Distribution in bytes."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/vocab-dcat/#Property:distribution_size"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - byte size"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains the size of a Distribution in bytes."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#startDate",
+      "dcterms:identifier": "dcat:startDate",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains the start of the period."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:period_start_date"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Period Of Time - start date"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property contains the start of the period."
+      }
+    },
+    {
+      "@id": "dcterms:format",
+      "dcterms:identifier": "dct:format",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the file format of the Distribution."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-format"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - format"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to the file format of the Distribution."
+      }
+    },
+    {
+      "@id": "adms:sample",
+      "dcterms:identifier": "adms:sample",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a sample distribution of the dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-adms/#adms-sample"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - sample"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a sample distribution of the dataset."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/prov#qualifiedAttribution",
+      "dcterms:identifier": "prov:qualifiedAttribution",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the link to an Agent having some form of responsibility for the resource."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/2013/REC-prov-o-20130430/#qualifiedAttribution"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - qualified attribution"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the link to an Agent having some form of responsibility for the resource. "
+      }
+    },
+    {
+      "@id": "_:Ne36d82ad3d6d47368c367a15c38eb2aa",
+      "@type": "dcat:Role"
+    },
+    {
+      "@id": "spdx:checksum",
+      "dcterms:identifier": "spdx:checksum",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property provides a mechanism that can be used to verify that the contents of a distribution have not changed."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://spdx.org/rdf/terms/#checksum"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "distribution - checksum"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property.This property provides a mechanism that can be used to verify that the contents of a distribution have not changed. The checksum is related to the downloadURL."
+      }
+    },
+    {
+      "@id": "spdx:algorithm",
+      "dcterms:identifier": "spdx:algorithm",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://spdx.org/rdf/terms/#algorithm"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Checksum - algorithm"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property. This property identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time."
+      }
+    },
+    {
+      "@id": "dcterms:publisher",
+      "dcterms:identifier": "dct:publisher",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to an entity (organisation) responsible for making the Dataset available."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to an entity (organisation) responsible for making the Catalogue available."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-publisher"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - publisher"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - publisher"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to an entity (organisation) responsible for making the Dataset available."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property. This property refers to an entity (organisation) responsible for making the Catalogue available."
+        }
+      ]
+    },
+    {
+      "@id": "_:N9a49f12bb10443ac9bc9c36fd5b018de",
+      "foaf:homepage": {
+        "@id": "https://www.ails.ece.ntua.gr/"
+      },
+      "foaf:name": "Artificial Intelligence and Learning Systems Laboratory, National Technical University of Athens"
+    },
+    {
+      "@id": "dcterms:LicenseDocument",
+      "dcterms:identifier": "dct:LicenseDocument",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A legal document giving official permission to do something with a Resource."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LicenseDocument"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Licence Document"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended class. A legal document giving official permission to do something with a resource. "
+      }
+    },
+    {
+      "@id": "dcat:distribution",
+      "dcterms:identifier": "dcat:distribution",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property links the Dataset to an available Distribution."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/vocab-dcat/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - dataset distribution"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property links the Dataset to an available Distribution."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/locn#geometry",
+      "dcterms:identifier": "locn:geometry ",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property associates any resource with the corresponding geometry"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:location_geometry"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Location - geometry"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property associates any resource with the corresponding geometry."
+      }
+    },
+    {
+      "@id": "dcterms:license",
+      "dcterms:identifier": "dct:license",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the licence under which the Distribution is made available."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to the licence under which the Catalogue can be used or reused."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-license"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Service - licence"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - licence"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - licence"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to the licence under which the Catalogue can be used or reused."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to the licence under which the Distribution is made available."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the licence under which the Catalogue can be used or reused."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#Relationship",
+      "dcterms:identifier": "dcat:Relationship",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "An association class for attaching additional information to a relationship between DCAT Resources."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Class:Relationship"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Relationship"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. An association class for attaching additional information to a relationship between DCAT Resources."
+      }
+    },
+    {
+      "@id": "dcterms:Location",
+      "dcterms:identifier": "dct:Location",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A spatial region or named place."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Location"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Location"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A spatial region or named place. It can be represented using a controlled vocabulary or with geographic coordinates. In the latter case, the use of the Core Location Vocabulary  is recommended. "
+      }
+    },
+    {
+      "@id": "foaf:homepage",
+      "dcterms:identifier": "foaf:homepage",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a web page that acts as the main page for the Catalogue."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_homepage"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - homepage"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property refers to a web page that acts as the main page for the Catalogue."
+      }
+    },
+    {
+      "@id": "vcard:Kind",
+      "dcterms:identifier": "vcard:Kind",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point. Note that the class Kind is the parent class for the four explicit types of vCards (Individual, Organization, Location, Group)."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "vcard:"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Kind"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point. Note that the class Kind is the parent class for the four explicit types of vCards (Individual, Organization, Location, Group)."
+      }
+    },
+    {
+      "@id": "dcat:landingPage",
+      "dcterms:identifier": "dcat:landingPage",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a web page that provides access to the Dataset, its Distributions and/or additional information."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat/#Property:dataset_landingpage"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - landing page"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a web page that provides access to the Dataset, its Distributions and/or additional information. "
+      }
+    },
+    {
+      "@id": "https://www.w3.org/TR/owl-time/#time:hasEnd",
+      "dcterms:identifier": "time:hasEnd",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the end of a period or interval."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:period_has_end"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Period Of Time - end"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the end of a period or interval."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#bbox",
+      "dcterms:identifier": " dcat:bbox",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This propert refers to the geographic bounding box of a resource."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:location_bbox"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Location - bounding box "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This propert refers to the geographic bounding box of a resource."
+      }
+    },
+    {
+      "@id": "rdfs:Resource",
+      "dcterms:identifier": "rdfs:Resource",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "All things described by RDF are called resources, and are instances of the class rdfs:Resource. This is the class of everything. All other classes are subclasses of this class. rdfs:Resource is an instance of rdfs:Class."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/rdf-schema/#ch_resource"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Resource"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory class. Anything described by RDF."
+      }
+    },
+    {
+      "@id": "odrl:hasPolicy",
+      "dcterms:identifier": "odrl:hasPolicy ",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a policy expressing the rights associated with the resource if using the ODRL vocabulary."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:resource_has_policy"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - has policy "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a policy expressing the rights associated with the resource if using the ODRL vocabulary. "
+      }
+    },
+    {
+      "@id": "dcterms:spatial",
+      "dcterms:identifier": "dct:spatial",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to a geographic region that is covered by the Dataset."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a geographical area covered by the Catalogue."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-spatial"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - spatial / geographic"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - spatial/ geographical coverage"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to a geographical area covered by the Catalogue."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to a geographic region that is covered by the Dataset. "
+        }
+      ]
+    },
+    {
+      "@id": "dcat:Catalog",
+      "dcterms:identifier": "dcat:Catalog",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A  curated collection of metadata about datasets"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-catalog"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Catalogue"
+      },
+      "rdfs:subClassOf": {
+        "@id": "dcat:Dataset"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory class. A catalogue or repository that hosts the Datasets being described."
+      }
+    },
+    {
+      "@id": "dcterms:mediaType",
+      "dcterms:identifier": "dcat:mediaType",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the media type of the Distribution if this is defined in IANA."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-mediaType"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - media type"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. Subproperty of dct:format. This property refers to the media type of the Distribution if this is defined in IANA."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/prov#wasGeneratedBy",
+      "dcterms:identifier": " prov:wasGeneratedBy",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to an activity that generated, or provides the business context for, the creation of the dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/2013/REC-prov-o-20130430/#wasGeneratedBy"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - was generated by"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to an activity that generated, or provides the business context for, the creation of the dataset. "
+      }
+    },
+    {
+      "@id": "dcterms:language",
+      "dcterms:identifier": "dct:language",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to a language used in the textual metadata describing titles, descriptions, etc. of the Datasets in the Catalogue. This property can be repeated if the metadata is provided in multiple languages."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a language used in the textual metadata describing titles, descriptions, etc. of the Dataset. This property can be repeated if the metadata is provided in multiple languages."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a language used in the Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to a language of the Dataset. This property can be repeated if there are multiple languages in the Dataset."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-language"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - language"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - language"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - language"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - language"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a language used in the textual metadata describing titles, descriptions, etc. of the Dataset. This property can be repeated if the metadata is provided in multiple languages."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a language used in the Distribution. This property can be repeated if the metadata is provided in multiple languages."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to a language of the Dataset. This property can be repeated if there are multiple languages in the Dataset."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property refers to a language used in the textual metadata describing titles, descriptions, etc. of the Datasets in the Catalogue. This property can be repeated if the metadata is provided in multiple languages."
+        }
+      ]
+    },
+    {
+      "@id": "dcat:Dataset",
+      "dcterms:identifier": "dcat:Dataset",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A collection of data, published or curated by a single source, and available for access or download in one or more formats"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-dataset"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory class. A conceptual entity that represents the information published."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/TR/owl-time/#time:hasBeginning",
+      "dcterms:identifier": "time:hasBeginning",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the beginning of a period or interval."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:period_has_beginning"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Period Of Time - beginning"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to the beginning of a period or interval."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#hadRole",
+      "dcterms:identifier": "dcat:hadRole",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "The function of an entity or agent with respect to another entity or resource."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:relationship_hadRole"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Relationship - had role"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property. The function of an entity or agent with respect to another entity or resource.."
+      }
+    },
+    {
+      "@id": "dcterms:LinguisticSystem",
+      "dcterms:identifier": "dct:LinguisticSystem",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LinguisticSystem"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Linguistic system"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language. "
+      }
+    },
+    {
+      "@id": "adms:versionNotes",
+      "dcterms:identifier": "adms:versionNotes",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a description of the differences between this version and a previous version of the Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-adms/#adms-versionnotes"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - version notes"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains a description of the differences between this version and a previous version of the Dataset."
+      }
+    },
+    {
+      "@id": "_:N71caaf3f967c473c94825d92e2761f95",
+      "foaf:homepage": {
+        "@id": "https://tenforce.com"
+      },
+      "foaf:name": "TenForce"
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#Role",
+      "dcterms:identifier": {
+        "@id": "_:Ne36d82ad3d6d47368c367a15c38eb2aa"
+      },
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A role is the function of a resource or agent with respect to another resource, in the context of resource attribution or resource relationships."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Class:Role"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Role"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A role is the function of a resource or agent with respect to another resource, in the context of resource attribution or resource relationships. Note it is a subclass of skos:Concept."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#accessService",
+      "dcterms:identifier": "dcat:accessService ",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to the a data service that gives access to the distribution of the dataset ."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:distribution_access_service"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Distribution - access service"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a data service that gives access to the distribution of the dataset. "
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#endpointURL",
+      "dcterms:identifier": "dcat:endpointURL",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "The root location or primary endpoint of the service (an IRI)."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:data_service_endpoint_url"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Service - endpoint URL "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property. The root location or primary endpoint of the service (an IRI).."
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#spatialResolutionInMeters",
+      "dcterms:identifier": [
+        "dcat:spatialResolutionInMeters",
+        "dcat:spatialResolutionInMeters "
+      ],
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the  minimum spatial separation resolvable in a dataset, measured in meters."
+        },
+        {
+          "@language": "en",
+          "@value": "This property refers to the minimum spatial separation resolvable in a dataset distribution, measured in meters. ."
+        }
+      ],
+      "rdfs:isDefinedBy": [
+        {
+          "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:dataset_spatial_resolution"
+        },
+        {
+          "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:distribution_spatial_resolution"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Distribution - spatial resolution "
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - "
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the minimum spatial separation resolvable in a dataset, measured in meters. "
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the minimum spatial separation resolvable in a dataset distribution, measured in meters. . "
+        }
+      ]
+    },
+    {
+      "@id": "spdx:Checksum",
+      "dcterms:identifier": "spdx:Checksum",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A value that allows the contents of a file to be authenticated. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "spdx:Checksum"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Checksum"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "A value that allows the contents of a file to be authenticated. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented."
+      }
+    },
+    {
+      "@id": "dcatap:stable",
+      "@type": "skos:Concept",
+      "dcterms:identifier": "stable",
+      "skos:definition": {
+        "@language": "en",
+        "@value": "Data will remain available in the long term."
+      },
+      "skos:inScheme": {
+        "@id": "http://data.europa.eu/r5r/availability/1.0"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "stable"
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#catalog",
+      "dcterms:identifier": " dcat:catalog",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a catalog whose contents are of interest in the context of this catalog  ."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:catalog_catalog"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - catalog "
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to  a catalog whose contents are of interest in the context of this catalog . "
+      }
+    },
+    {
+      "@id": "dcat:dataset",
+      "dcterms:identifier": "dcat:dataset",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A dataset that is part of the catalog."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/#class-catalog-record"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Data Catalogue - dataset"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property. This property links the Catalogue with a Dataset that is part of the Catalogue."
+      }
+    },
+    {
+      "@id": "adms:identifier",
+      "dcterms:identifier": "adms:identifier",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property refers to a secondary identifier of the Dataset, such as MAST/ADS[1], DataCite[2], DOI[3], EZID[4] or W3ID[5]."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-adms/#adms-identifier"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - other identifier"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property refers to a secondary identifier of the Dataset, such as MAST/ADS[1], DataCite[2], DOI[3], EZID[4] or W3ID[5]."
+      }
+    },
+    {
+      "@id": "dcterms:provenance",
+      "dcterms:identifier": "dct:provenance",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a statement about the lineage of a Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-provenance"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - provenance"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains a statement about the lineage of a Dataset."
+      }
+    },
+    {
+      "@id": "_:Na3d9b6907dbd4ab68eb18bd0bd7e670c",
+      "foaf:homepage": {
+        "@id": "http://www.pwc.com/gx/en/eu-institutions-services/"
+      },
+      "foaf:name": "PwC EU Services"
+    },
+    {
+      "@id": "dcatap:experimental",
+      "@type": "skos:Concept",
+      "dcterms:identifier": "experimental",
+      "skos:definition": {
+        "@language": "en",
+        "@value": "Data is available for a few years, medium term planning."
+      },
+      "skos:inScheme": {
+        "@id": "http://data.europa.eu/r5r/availability/1.0"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "experimental"
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#qualifiedRelation",
+      "dcterms:identifier": "dcat:qualifiedRelation",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property provides a link to a description of a relationship with another resource."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:resource_qualified_relation"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - qualified relation"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property provides a link to a description of a relationship with another resource. "
+      }
+    },
+    {
+      "@id": "dcterms:ProvenanceStatement",
+      "dcterms:identifier": "dct:ProvenanceStatement",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-ProvenanceStatement"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Provenance Statement"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation. "
+      }
+    },
+    {
+      "@id": "_:N8cd4e5a1295947c493685fc69195c9a9",
+      "foaf:homepage": {
+        "@id": "http://nikosloutas.com/"
+      },
+      "foaf:name": "Nikolaos Loutas",
+      "rdfs:seeAlso": {
+        "@id": "http://nikosloutas.com/"
+      },
+      "schema:affiliation": {
+        "@id": "_:Na3d9b6907dbd4ab68eb18bd0bd7e670c"
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#contactPoint",
+      "dcterms:identifier": "dcat:contactPoint",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains contact information that can be used for sending comments about the Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-adms/#dcat-contactpoint"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - contact point"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property.This property contains contact information that can be used for sending comments about the Dataset."
+      }
+    },
+    {
+      "@id": "dcterms:PeriodOfTime",
+      "dcterms:identifier": "dct:PeriodOfTime",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "An interval of time that is named or defined by its start and end dates."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-PeriodOfTime"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Period of time"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional class. An interval of time that is named or defined by its start and end dates. "
+      }
+    },
+    {
+      "@id": "https://www.w3.org/ns/dcat#endDate",
+      "dcterms:identifier": "dcat:endDate",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains the end of the period."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/#Property:period_end_date"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Period Of Time - end date"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Recommended property. This property contains the end of the period."
+      }
+    },
+    {
+      "@id": "owl:versionInfo",
+      "dcterms:identifier": "owl:versionInfo",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property contains a version number or other version designation of the Dataset."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "owl:"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Dataset - version"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Optional property. This property contains a version number or other version designation of the Dataset."
+      }
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe",
+      "@type": "owl:Ontology",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Change log for DCAT-AP v2.0.0: see github"
+      },
+      "cc:attributionName": {
+        "@language": "en",
+        "@value": "European Commission"
+      },
+      "cc:attributionURL": {
+        "@id": "http://ec.europa.eu/"
+      },
+      "dcterms:abstract": {
+        "@language": "en",
+        "@value": "The DCAT Application profile for data portals in Europe (DCAT-AP) is a specification based on the Data Catalogue vocabulary (DCAT) for describing public sector datasets in Europe. Its basic use case is to enable a cross-data portal search for data sets and make public sector data better searchable across borders and sectors. This can be achieved by the exchange of descriptions of data sets among data portals."
+      },
+      "dcterms:conformsTo": {
+        "@id": "https://joinup.ec.europa.eu/document/process-and-methodology-developing-core-vocabularies"
+      },
+      "dcterms:creator": [
+        {
+          "@id": "_:Nb2c4c3ebf2b042c09c964d19b3fa56b1"
+        },
+        {
+          "@id": "_:Ndbe4770780164333b5a95bb248d45912"
+        },
+        {
+          "@id": "_:N7c3200daacdd43f58f63f9b083d93acc"
+        },
+        {
+          "@id": "_:N8cd4e5a1295947c493685fc69195c9a9"
+        },
+        {
+          "@id": "_:N5b23c30c0fbc4bb693fa9e2d0eff5183"
+        }
+      ],
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2019-11-15"
+      },
+      "dcterms:publisher": {
+        "@id": "http://publications.europa.eu/resource/authority/corporate-body/DIGIT"
+      },
+      "dcterms:relation": {
+        "@id": "http://data.europa.eu/w21/6be4d036-2e6d-4528-a888-0e9a0e29c579"
+      },
+      "foaf:logo": {
+        "@id": "https://joinup.ec.europa.eu/sites/default/files/imagecache/community_logo/DCAT_application_profile_for_European_data_portals_logo_0.png"
+      },
+      "foaf:maker": {
+        "@id": "_:N3058bde7835342f8b4159595b6a34f8a"
+      },
+      "owl:versionInfo": "2.0.0",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This document specifies the set of RDF classes and properties used in the DCAT Application profile for data portals in Europe (DCAT-AP)."
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "DCAT Application Profile for Data Portals in Europe"
+      },
+      "voaf:specializes": {
+        "@id": "dcat:"
+      },
+      "wdsr:describedby": {
+        "@id": "http://data.europa.eu/w21/6be4d036-2e6d-4528-a888-0e9a0e29c579"
+      },
+      "xhv:prev": {
+        "@id": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/release/200"
+      }
+    },
+    {
+      "@id": "foaf:primaryTopic",
+      "dcterms:identifier": "foaf:primaryTopic",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "This property links the Catalogue Record to the Dataset, Data Service or Catalogue described in the record."
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://xmlns.com/foaf/spec/#term_primaryTopic"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Catalogue Record - primary topic"
+      },
+      "vann:usageNote": {
+        "@language": "en",
+        "@value": "Mandatory property.  This property links the Catalogue Record to the Dataset, Data Service or Catalogue described in the record."
+      }
+    },
+    {
+      "@id": "adms:status",
+      "dcterms:identifier": "adms:status",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property refers to the maturity of the Distribution"
+        },
+        {
+          "@language": "en",
+          "@value": "The type of the latest revision of a Dataset's entry in the Catalogue. It MUST take one of the values :Completed, :Depricated, :Under development or :Withdrawn."
+        }
+      ],
+      "rdfs:isDefinedBy": [
+        {
+          "@id": "http://www.w3.org/TR/vocab-adms/#status"
+        },
+        {
+          "@id": "https://www.w3.org/TR/vocab-adms/#adms-status"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - change type"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - status"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Optional property. This property refers to the maturity of the Distribution."
+        },
+        {
+          "@language": "en",
+          "@value": "Recommended property.  The type of the latest revision of a Dataset's entry in the Catalogue. It MUST take one of the values :created, :updated or :deleted depending on whether this latest revision is a result of a creation, update or deletion."
+        }
+      ]
+    },
+    {
+      "@id": "dcterms:modified",
+      "dcterms:identifier": "dct:modified",
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "This property contains the most recent date on which the Dataset was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the most recent date on which the Catalogue entry was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the most recent date on which the Catalogue was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "This property contains the most recent date on which the Distribution was changed or modified."
+        }
+      ],
+      "rdfs:isDefinedBy": {
+        "@id": "http://dublincore.org/documents/dcmi-terms/#terms-modified"
+      },
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Data Catalogue - update/ modification date"
+        },
+        {
+          "@language": "en",
+          "@value": "Catalogue Record - update/ modification date"
+        },
+        {
+          "@language": "en",
+          "@value": "Distribution - update/modification date"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset - update/ modification date"
+        }
+      ],
+      "vann:usageNote": [
+        {
+          "@language": "en",
+          "@value": "Recommended property. This property contains the most recent date on which the Catalogue was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains the most recent date on which the Dataset was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "Mandatory property.  This property contains the most recent date on which the Catalogue entry was changed or modified."
+        },
+        {
+          "@language": "en",
+          "@value": "Optional property. This property contains the most recent date on which the Distribution was changed or modified."
+        }
+      ]
+    },
+    {
+      "@id": "_:N2a74cf21a8bc4bdbac1bff336640a114",
+      "foaf:homepage": {
+        "@id": "http://www.makxdekkers.com/"
+      },
+      "foaf:name": "AMI Consult"
+    }
+  ]
+}
