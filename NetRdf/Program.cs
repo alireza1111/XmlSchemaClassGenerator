@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using VDS.RDF;
 using VDS.RDF.Parsing;
 using VDS.RDF.Query;
@@ -42,25 +42,24 @@ namespace NetRdf
 
 
 
-            *//*            IGraph g = new Graph();
-                        g.LoadFromFile("dcat-ap_2.0.1.rdf");
+            IGraph g = new Graph();
+            g.LoadFromFile("dcat-ap_2.0.1.rdf");
 
-                        foreach (Triple t in g.Triples)
-                        {
-                            Console.WriteLine(t.Predicate);
-                            Console.WriteLine(t.Subject);
-                            Console.WriteLine(t.Object);
-                        }*/
+            foreach (Triple t in g.Triples)
+            {
+                Console.WriteLine(string.Concat("PREDICATE: ", t.Predicate));
+                Console.WriteLine(string.Concat("SUBJECT: ", t.Subject));
+                Console.WriteLine(string.Concat("OBJECT: ", t.Object));
+            }
 
 
 
-/*            TurtleParser turtleParser = new TurtleParser();
+            TurtleParser turtleParser = new TurtleParser();
             Graph graph = new Graph();
 
             graph.LoadFromFile("dcat-ap_2.0.1.rdf");
-            var ds = graph.GetUriNode("dct:title");*//*
+            var ds = graph.GetUriNode("dct:title");
 
         }
     }
 }
-*/
